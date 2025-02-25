@@ -21,12 +21,6 @@
 title: Salah Fouraq
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello! With extensive experience in the software industry, 
-  particularly in .NET C#, Microsoft technologies, and Azure,
-  I've created this blog to document my learning journey.
-  It's a space where I can solidify my understanding of various concepts, 
-  including adevelopment best practices, cloud technologies, and artificial intelligence (AI),
-  while sharing insights with the community.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: frqsalah
@@ -34,6 +28,17 @@ github_username:  jekyll
 
 # Build settings
 theme: minima
+minima:
+  social_links:
+    - title: My linkedin
+      icon: linkedin
+      url: "https://www.linkedin.com/in/salaheddinefouraq/"
+    - title: GitHub
+      icon: github
+      url: "https://github.com/FrqSalah"
+    - title: Salah at X (formerly Twitter)
+      icon: x-twitter
+      url: "https://x.com/frqSalah"    
 plugins:
   - jekyll-feed
 
