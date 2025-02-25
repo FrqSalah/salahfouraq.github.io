@@ -33,7 +33,7 @@ twitter_username: frqsalah
 github_username:  jekyll
 
 # Build settings
-theme: lanyon
+theme: minima
 plugins:
   - jekyll-feed
 
