@@ -1,0 +1,62 @@
+---
+---
+@import "minima";
+
+// Date styling
+.post-date {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #666;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+// Title styling
+.post-title {
+  font-family: Karla, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+// Content styling
+.post-content {
+  font-family: Karla, sans-serif;
+  color: #444;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+// General spacing
+.post-header {
+  margin-bottom: 30px;
+}
+
+
+// Your custom code highlighting styles
+.highlight {
+  // Override general code block styles
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  
+  pre, code {
+    // Code font styles
+    font-family: 'Monaco', 'Consolas', monospace;
+    font-size: 14px;
+  }
+
+  .c     { color: #998; font-style: italic } // Comment
+  .err   { color: #a61717; } // Error
+  .k     { color: #0086b3; font-weight: bold } // Keyword
+  .o     { font-weight: bold } // Operator
+  .cm    { color: #998; font-style: italic } // Comment.Multiline
+  .cp    { color: #999; font-weight: bold } // Comment.Preproc
+  .c1    { color: #998; font-style: italic } // Comment.Single
+  .cs    { color: #999; font-weight: bold; font-style: italic } // Comment.Special
+  .gd    { color: #000; background-color: #fdd } // Generic.Deleted
+  // Add more language tokens as needed
+}
