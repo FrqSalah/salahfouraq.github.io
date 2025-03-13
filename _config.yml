@@ -33,6 +33,7 @@ minima:
   # the `path` property (as represented via Liquid) of the pages in the order they should
   # be rendered.
   nav_pages:
+    - search.md
     - about.md
 
 markdown: kramdown
