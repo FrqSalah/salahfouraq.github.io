@@ -1,18 +1,29 @@
-  <p>Use the search box below to find content across the site:</p>
-  
-  <!-- This is the container where Algolia will render the search interface -->
-  <div id="search"></div>
+---
+layout: page
+title: Search
+permalink: /search/
+---
+
+<div class="home">
+
+  <div id="search-searchbar"></div>
+
+  <div class="post-list" id="search-hits">
+    {% for post in site.posts %}
+      <div class="post-item">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        <div class="post-snippet">{{ post.excerpt }}</div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
 </div>
 
-<!-- Algolia search scripts -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-<script type="text/javascript">
-  algoliasearchNetlify({
-    appId: 'R188TE8U9T',
-    apiKey: '2dab79540b373f6a42b7bdf0d350f433',
-    siteId: 'cd8e7573-fb3b-43d4-a29f-b698d26f10c4',
-    branch: 'main',
-    selector: 'div#search',
-  });
-</script>
+{% include algolia.html %}

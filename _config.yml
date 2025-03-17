@@ -23,6 +23,11 @@ show_excerpts: true # set to true to show excerpts on the homepage
 # add a line comment on "theme: minima" above.
 #remote_theme: jekyll/minima
 
+algolia:
+  application_id: 'R188TE8U9T'
+  index_name: netlify_cd8e7573-fb3b-43d4-a29f-b698d26f10c4_main_all 
+  search_only_api_key: 2dab79540b373f6a42b7bdf0d350f433
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
