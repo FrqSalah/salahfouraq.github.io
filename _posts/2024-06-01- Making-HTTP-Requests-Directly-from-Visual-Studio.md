@@ -3,7 +3,7 @@ layout: post
 title:  "Use .http files in Visual Studio to make HTTP requests"
 tag: [visual studio, APIs]
 category: visual studio
-cover-img: /assets/img/http_cover.jpg
+cover-img: /assets/img/Use_http_file_in_visual_studio.png
 ---
 
 If you're like me tired of switching between your IDE and external tools like Postman to test your APIs? 
