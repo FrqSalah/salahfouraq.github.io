@@ -3,7 +3,7 @@ layout: post
 title:  "C# Optimizations That Boosted Our Application's Performance"
 tags: csharp dotnet
 category: csharp dotnet
-#cover-img: /assets/img/performance_cover_p.jpg
+image: /assets/img/Csharp_optimizations.png
 ---
 
 In the world of software development, performance is often the difference between success and failure. As an experienced developer, I faced a significant challenge when our C# application began to struggle under heavy load. After debugging and optimization, my team and I managed to give a good boost to the application's performance. 

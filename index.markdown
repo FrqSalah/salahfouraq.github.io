@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+{%- for post in site.posts limit: 1 -%}
+  <h2>{{ post.title }}</h2>
+  <img src="{{ post.image }}" alt="{{ post.title }}">
+  <p>{{ post.excerpt }}</p>
+{%- endfor -%}
