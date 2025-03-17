@@ -1,4 +1,4 @@
-title: Your awesome title
+title: Salah FOURAQ
 author:
   name: GitHub User1
   email: your-email@domain.com
@@ -38,7 +38,7 @@ minima:
   # the `path` property (as represented via Liquid) of the pages in the order they should
   # be rendered.
   nav_pages:
-    - search.md
+    - 🔍 search.md
     - about.md
 
 markdown: kramdown
